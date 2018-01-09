@@ -1,0 +1,82 @@
+/* Added Amit on 01-03-2017 */
+
+.form-horizontal .has-feedback .form-control-feedback  {
+	right:0 !important;
+}
+
+.form-horizontal .form-group {
+    margin-right:0px !important;
+    margin-left:0px !important;
+}
+
+/* Edited Amit on 03-03-2017 */
+li.user-footer div.change_password_left_space {
+	margin-left:5px;
+}
+
+.navbar-nav > .user-menu > .dropdown-menu {
+	width:300px;
+}
+
+.alert a {
+	text-decoration:none;
+}
+/* Edited Amit End */
+
+/** Theme Custom Style **/
+.mainsection-title{ margin:0; }
+.headeradd-btn{ margin:5px; }
+.mrgn-right10 { margin-right: 10px; }
+.form-group{ overflow:hidden; }
+.box-body{ padding: 25px 10px 10px 10px; }
+.alert{ margin:15px 0; }
+.alert h4{ display: inline-block; margin-bottom: 0; margin-right: 5px; }
+.required-mark{ color:red; }
+.radio.inline{ display: inline-block; margin: 2px 10px 0 0; }
+.form-control.selectbox{ width: 100%; }
+.select2-container{ width: 100% !important; }
+.form-group.has-error .select2-selection{ border:1px solid red; }
+textarea.resizeverticleonly{ resize:vertical; }
+.checkbox.marginnone{ margin: 0; }
+tags-input .tags{ border-radius:0; }
+tags-input .tags .input{ font:14px 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif; padding: 0 0 0 10px; }
+.propertyimage{ height:50px; width:100px; }
+.propertyimage_input{ float: left; width: 300px; }
+.nav-tabs{ border-top:1px solid #f4f4f4; }
+.nav-tabs-custom > .tab-content{ padding:20px 10px 15px; display: inline-block; width: 100%; }
+.button-group { padding:0 15px; text-align: center; }
+.individual-pricerange{ display:inline-block; width:100%; border:1px solid #000; padding:20px 10px; position: relative; margin-bottom:20px; }
+.rooms-container{ display:inline-block; width: 100%; }
+.remove-pricebox{ position: absolute; right: 10px; top:7px; cursor: pointer; z-index: 5; }
+.remove-pricebox i{ font-size: 20px; }
+.pricegroup{ margin-top: 20px; }
+.pricegroup .form-control{ margin-bottom:0px; }
+.rooms-container label{ padding-top:6px; font-size: 16px; }
+/*.addroombtn{ margin-top:10px; }*/
+.room-hour-seperator{ height:2px; margin: 20px 0; background: #000; }
+.hours_table{ border:none; margin-top: 15px; }
+.hours_table td, .hours_table th{ padding:5px 20px;}
+.hours_table tr>td:last-child{ text-align:center; }
+.individual-amenities{ margin: 15px 0 0; font-size: 16px; }
+.individual-amenities .checkbox label{ padding-left: 25px; }
+.individual-amenities .checkbox input[type="checkbox"]{ margin-left: -25px; }
+.features-container{ margin-bottom:30px; }
+.property-tabheadline{ margin-top: 15px; margin-bottom: 20px; }
+.otherimages-container{ margin-bottom:20px; }
+.property-otherimage{ margin-bottom:20px; position: relative; width: 100%; }
+.individualimage-input{ display: block; clear: both; margin-bottom: 15px; }
+.property-docimage{ margin-bottom:20px; }
+.propertydoc_input{ clear:both; }
+.help-block{ margin-bottom:0; }
+.removepropertyimage{ position:absolute; top:0; right:15px; padding:4px 7px; background: #000; cursor: pointer; }
+.removepropertyimage i{ color:#fff; font-size: 18px; }
+.otherimages-container > div:nth-child(6n+1){ clear: both; }
+.nopropertyimages{ padding:10px 0 10px 15px; font-size:18px; }
+.remove-image{ padding-top:3px; display:inline-block; }
+.property-mainimage{ height:100px; width:100px; }
+.nobannerimages{ padding:15px 0 10px 0; font-size:18px; }
+#banner_image, #sidebar_image, #cms_content_image{ width:350px; float: left; }
+.homeimages-container{ margin-top: 20px; }
+.banner-otherimage{ margin-bottom:20px; position: relative; width: 100%; height: 120px; }
+
+
