@@ -1,4 +1,4 @@
-<!-- Added Amit on 28-02-2017 -->
+<!-- Added Amit on 21/07/2017 -->
 <!-- Admin Dashboard Page -->
 @extends('layouts.admin_template')
 @section('content')
@@ -13,39 +13,52 @@
         	<!-- small box -->
           	<div class="small-box bg-aqua">
             	<div class="inner">
-              		<h3>{{ $total_states }}</h3>
-					<p>Total States</p>
+              		<h3>{{ $total_riders }}</h3>
+					<p>Total Riders</p>
             	</div>
             	<div class="icon">
-              		<i class="ion ion-ios-location"></i>
+              		<i class="fa fa-user"></i>
             	</div>
-            	<a href="{{ url('/admin/state') }}" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+            	<a href="{{ url('/admin/riders') }}" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
           	</div>
         </div>
         <div class="col-lg-3 col-xs-6">
         	<!-- small box -->
           	<div class="small-box bg-red">
             	<div class="inner">
-              		<h3>{{ $total_city }}</h3>
-					<p>Total City</p>
+              		<h3>{{ $total_drivers }}</h3>
+					<p>Total Drivers</p>
             	</div>
             	<div class="icon">
-              		<i class="fa fa-location-arrow"></i>
+              		<i class="fa fa-user-plus"></i>
             	</div>
-            	<a href="{{ url('/admin/city') }}" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+            	<a href="{{ url('/admin/drivers') }}" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
           	</div>
         </div>
         <div class="col-lg-3 col-xs-6">
         	<!-- small box -->
           	<div class="small-box bg-yellow">
             	<div class="inner">
-              		<h3>{{ $total_properties }}</h3>
-					<p>Total Properties</p>
+              		<h3>{{ $total_jobs }}</h3>
+					<p>Total Trips</p>
             	</div>
             	<div class="icon">
-              		<i class="ion ion-home"></i>
+              		<i class="ion ion-ios-location"></i>
             	</div>
-            	<a href="{{ url('/admin/property') }}" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+            	<a href="{{ url('/admin/user_bookings') }}" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+          	</div>
+        </div>
+        <div class="col-lg-3 col-xs-6">
+        	<!-- small box -->
+          	<div class="small-box bg-green">
+            	<div class="inner">
+              		<h3>{{ $total_registered_vehicles }}</h3>
+					<p>Total Registered Cars</p>
+            	</div>
+            	<div class="icon">
+              		<i class="fa fa-car"></i>
+            	</div>
+            	<a href="{{ url('/admin/driver_cars') }}" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
           	</div>
         </div>
     </div><!-- /.row -->

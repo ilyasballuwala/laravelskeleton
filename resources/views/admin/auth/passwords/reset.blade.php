@@ -1,10 +1,10 @@
-<!-- Edited Amit on 02-03-2017 -->
+<!-- Edited Amit on 21/07/2017 -->
 <!-- Add new layout of reset password page as per admin theme -->
 @extends('admin.auth.master')
 @section('content')
 <div class="login-box">
 	<div class="login-logo">
-   		<a href="{{ url('/admin') }}"><img src="{{ asset("images/efficient-corporate.png") }}" class="img-responsive" alt="Admin Efficient Corporate"></a>
+   		<a href="{{ url('/admin') }}"><img src="{{ asset("images/ecabs.png") }}" class="logo-image img-responsive" alt="Admin e-Cabs4u"></a>
     </div>
     <!-- /.login-logo -->
     <div class="login-box-body">

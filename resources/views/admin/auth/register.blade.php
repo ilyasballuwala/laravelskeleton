@@ -1,10 +1,10 @@
-<!-- Edited Amit on 02-03-2017 -->
+<!-- Edited Amit on 21/07/2017 -->
 <!-- Add new layout of login page as per admin theme -->
 @extends('admin.auth.master')
 @section('content')
 <div class="register-box">
 	<div class="register-logo">
-    	<a href="{{ url('/admin') }}"><img src="{{ asset("images/efficient-corporate.png") }}" class="img-responsive" alt="Admin Efficient Corporate"></a>
+    	<a href="{{ url('/admin') }}"><img src="{{ asset("images/ecabs.png") }}" class="logo-image img-responsive" alt="Admin e-Cabs4u"></a>
   	</div>
   	<div class="register-box-body">
     	<p class="login-box-msg">Sign up to get access of Admin section</p>
@@ -47,13 +47,11 @@
                 @endif
           	</div>
       		<div class="row">
-        		<div class="col-xs-12">
-          			<button type="submit" class="btn btn-primary btn-block btn-flat">Register</button>
-        		</div>
-      		</div>
-            <div class="row">
-      			<div class="col-xs-8">
+            	<div class="col-xs-8">
       				<a href="{{ url('/admin/login') }}" class="text-center">Go Back to Login</a>
+        		</div>
+        		<div class="col-xs-4">
+          			<button type="submit" class="btn btn-primary btn-block btn-flat">Register</button>
         		</div>
       		</div>
     	</form>

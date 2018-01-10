@@ -94,5 +94,10 @@ Route::group(['middleware' => ['admin']],function(){
 	Route::get('admin/delete/{controller?}/{table?}/{field?}/{id?}', 'admin\Controller@generaldelete')->where(['table' => '[a-z_]+', 'id' => '[0-9]+']);
 	
 });
-// Edited Amit End
 
+Route::prefix('api/v1')->group(function() {
+    //Route::get('/ecabs/{mode?}', 'APIController@index')->where(['mode' => '[a-zA-Z_]+']);
+	Route::post('/globalaction', 'api\APIController@index');
+	Route::get('/verifyrider/{riderid?}/{verificationcode?}', 'api\APIController@verifyrider')->where(['riderid' => '[0-9]+', 'verificationcode' => '[a-zA-Z0-9_]+']);
+	Route::get('/verifydriver/{driverid?}/{verificationcode?}', 'api\APIController@verifydriver')->where(['driverid' => '[0-9]+', 'verificationcode' => '[a-zA-Z0-9_]+']);
+});

@@ -1,4 +1,4 @@
-<!-- Added Amit on 03-03-2017 -->
+<!-- Added Amit on 21/07/2017 -->
 <!-- Change Password Page for Admin -->
 @extends('layouts.admin_template')
 @section('content')
@@ -56,7 +56,7 @@
                 		<div class="form-group {{ $errors->has('newpass_confirmation') ? ' has-error' : '' }}">
                   			<label for="newpass_confirmation">Confirm Password</label>
                   			<div class="input-group">
-                				<span class="input-group-addon"><i class="glyphicon glyphicon-log-in"></i></span>
+                				<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
                             	<input type="password" class="form-control" id="newpass_confirmation" name="newpass_confirmation" value="">
                             </div>
 							@if($errors->has('newpass_confirmation'))

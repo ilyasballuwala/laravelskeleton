@@ -1,10 +1,10 @@
-<!-- Edited Amit on 02-03-2017 -->
+<!-- Edited Amit on 21/07/2017 -->
 <!-- Add new layout of login page as per admin theme -->
 @extends('admin.auth.master')
 @section('content')
 <div class="login-box">
 	<div class="login-logo">
-    	<a href="{{ url('/admin') }}"><img src="{{ asset("images/efficient-corporate.png") }}" class="img-responsive" alt="Admin Efficient Corporate"></a>
+    	<a href="{{ url('/admin') }}"><img src="{{ asset("images/ecabs.png") }}" class="logo-image img-responsive" alt="Admin e-Cabs4u"></a>
   	</div>
   	<!-- /.login-logo -->
   	<div class="login-box-body">
@@ -27,9 +27,9 @@
             </div>
             <div class="row">
         		<div class="col-xs-8">
-          			<div class="checkbox icheck">
+          			<!--<div class="checkbox icheck">
             			<label><input type="checkbox" name="remember"> Remember Me</label>
-          			</div>
+          			</div>-->
         		</div>
         		<!-- /.col -->
         		<div class="col-xs-4">
@@ -41,9 +41,9 @@
             	<div class="col-xs-8">
                 	<a href="{{ url('/admin/password/reset') }}" class="text-center">Forgot Your Password?</a>
                 </div>
-      			<!--<div class="col-xs-4">
+      			<div class="col-xs-4">
       				<a href="{{ url('/admin/register') }}" class="text-center">Register</a>
-        		</div>-->
+        		</div>
       		</div>
     	</form>
   	</div>
